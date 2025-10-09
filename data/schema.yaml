@@ -1,0 +1,176 @@
+version: "1.0"
+
+# File formats supported by the Translation Engine
+formats:
+  csv:
+    encoding: "utf-8"
+    delimiter: ","
+    quote_char: "\""
+    escape_char: "\""
+    line_terminator: "\n"
+    
+  json:
+    encoding: "utf-8"
+    type: "array"
+    structure: "array of objects"
+    
+  jsonl:
+    encoding: "utf-8"
+    type: "objects"
+    structure: "one JSON object per line"
+
+# Dictionary data schema
+dictionary:
+  description: "Bilingual word-to-word translations"
+  file_pattern: "{language_pair}_dictionary.{format}"
+  
+  required_fields:
+    - source_word
+    - target_word
+    - language_pair
+    
+  optional_fields:
+    - part_of_speech
+    - definition  
+    - frequency
+    
+  field_types:
+    source_word: 
+      type: string
+      description: "Word in source language"
+      max_length: 100
+      
+    target_word: 
+      type: string  
+      description: "Translation in target language"
+      max_length: 100
+      
+    language_pair: 
+      type: string
+      description: "Language direction (e.g., en-ru)"
+      pattern: "^[a-z]{2}-[a-z]{2}$"
+      
+    part_of_speech: 
+      type: string
+      description: "Grammatical category"
+      enum: ["noun", "verb", "adjective", "adverb", "pronoun", "preposition", "conjunction", "interjection", "article"]
+      
+    definition: 
+      type: string
+      description: "Short definition or explanation"
+      max_length: 200
+      
+    frequency: 
+      type: integer
+      description: "Usage frequency score (1-100)"
+      minimum: 1
+      maximum: 100
+
+# Phrase data schema  
+phrases:
+  description: "Multi-word phrase translations and idioms"
+  file_pattern: "{language_pair}_phrases.{format}"
+  
+  required_fields:
+    - source_phrase
+    - target_phrase
+    - language_pair
+    
+  optional_fields:
+    - category
+    - context
+    - confidence
+    - frequency
+    
+  field_types:
+    source_phrase: 
+      type: string
+      description: "Phrase in source language"
+      max_length: 200
+      
+    target_phrase: 
+      type: string
+      description: "Translation in target language" 
+      max_length: 200
+      
+    language_pair: 
+      type: string
+      description: "Language direction (e.g., en-ru)"
+      pattern: "^[a-z]{2}-[a-z]{2}$"
+      
+    category: 
+      type: string
+      description: "Phrase category"
+      enum: ["greetings", "conversation", "politeness", "farewell", "gratitude", "request", "directions", "shopping", "time", "emotions", "celebration", "storytelling", "business", "travel", "food"]
+      
+    context: 
+      type: string
+      description: "Usage context"
+      enum: ["formal", "informal", "neutral", "intimate", "caring", "professional"]
+      
+    confidence: 
+      type: integer
+      description: "Translation confidence (0-100)"
+      minimum: 0
+      maximum: 100
+      default: 95
+      
+    frequency: 
+      type: integer
+      description: "Usage frequency score (1-100)"
+      minimum: 1
+      maximum: 100
+      default: 50
+
+# Validation rules
+validation:
+  encoding: "utf-8"
+  
+  dictionary:
+    max_entries_per_file: 10000
+    duplicate_detection: "source_word + language_pair"
+    
+  phrases:
+    max_entries_per_file: 5000
+    duplicate_detection: "source_phrase + language_pair"
+    
+  language_pairs:
+    supported: ["en-ru", "ru-en", "en-es", "es-en", "en-fr", "fr-en", "en-de", "de-en", "en-it", "it-en", "en-pt", "pt-en", "en-ja", "ja-en", "en-ko", "ko-en", "en-zh", "zh-en"]
+    format: "ISO 639-1 codes separated by hyphen"
+
+# Data sources and licensing
+sources:
+  - name: "OPUS Parallel Corpus"
+    url: "https://opus.nlpl.eu/"
+    license: "Various open licenses"
+    
+  - name: "Wiktionary"  
+    url: "https://wiktionary.org/"
+    license: "CC BY-SA 3.0"
+    
+  - name: "Tatoeba"
+    url: "https://tatoeba.org/"
+    license: "CC BY 2.0"
+    
+  - name: "OpenRussian"
+    url: "https://en.openrussian.org/"
+    license: "CC BY-SA 4.0"
+
+# Repository metadata
+repository:
+  recommended_structure: |
+    data/
+    ├── {lang}_dictionary.csv
+    ├── {lang}_dictionary.json  
+    ├── {lang}_dictionary.jsonl
+    ├── {lang}_phrases.csv
+    ├── {lang}_phrases.json
+    └── {lang}_phrases.jsonl
+    
+  index_file: "index.json"
+  schema_file: "schema.yaml"
+  
+  versioning:
+    format: "semantic versioning (x.y.z)"
+    git_tags: true
+    changelog: true

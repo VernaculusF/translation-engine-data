@@ -1,0 +1,21 @@
+source_phrase,target_phrase,language_pair,category,context,confidence,frequency
+"good morning","доброе утро",en-ru,greetings,formal,95,50
+"good night","спокойной ночи",en-ru,greetings,formal,95,45
+"how are you","как дела",en-ru,conversation,informal,90,60
+"what's your name","как тебя зовут",en-ru,conversation,informal,95,40
+"nice to meet you","приятно познакомиться",en-ru,conversation,formal,90,35
+"excuse me","извините",en-ru,politeness,formal,95,55
+"I'm sorry","мне жаль",en-ru,politeness,formal,90,45
+"see you later","увидимся позже",en-ru,farewell,informal,85,30
+"thank you very much","большое спасибо",en-ru,gratitude,formal,95,50
+"you're welcome","пожалуйста",en-ru,politeness,formal,90,45
+"how much does it cost","сколько это стоит",en-ru,shopping,formal,90,35
+"where is the bathroom","где туалет",en-ru,directions,informal,85,25
+"I don't understand","я не понимаю",en-ru,communication,neutral,95,40
+"could you help me","не могли бы вы помочь мне",en-ru,request,formal,90,30
+"what time is it","который час",en-ru,time,neutral,85,35
+"I love you","я тебя люблю",en-ru,emotions,intimate,100,20
+"happy birthday","с днем рождения",en-ru,celebration,neutral,95,15
+"have a good day","хорошего дня",en-ru,farewell,neutral,85,40
+"take care","береги себя",en-ru,farewell,caring,80,25
+"once upon a time","жили-были",en-ru,storytelling,neutral,90,10

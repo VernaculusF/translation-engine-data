@@ -1,0 +1,74 @@
+{
+  "version": "1.0.0",
+  "languages": [
+    "en-ru", "ru-en",
+    "en-es", "es-en",
+    "en-fr", "fr-en", 
+    "en-de", "de-en",
+    "en-it", "it-en",
+    "en-pt", "pt-en"
+  ],
+  "formats": ["csv", "json", "jsonl"],
+  "data_types": ["dictionary", "phrases"],
+  "last_updated": "2025-01-09T14:52:51Z",
+  "total_entries": {
+    "dictionaries": 3000,
+    "phrases": 1200
+  },
+  "sources": [
+    "OPUS parallel corpus",
+    "Wiktionary",
+    "Tatoeba",
+    "OpenRussian"
+  ],
+  "statistics": {
+    "en-ru": {
+      "dictionary_entries": 500,
+      "phrase_entries": 200
+    },
+    "ru-en": {
+      "dictionary_entries": 500,
+      "phrase_entries": 200  
+    },
+    "en-es": {
+      "dictionary_entries": 400,
+      "phrase_entries": 150
+    },
+    "es-en": {
+      "dictionary_entries": 400,
+      "phrase_entries": 150
+    },
+    "en-fr": {
+      "dictionary_entries": 350,
+      "phrase_entries": 125
+    },
+    "fr-en": {
+      "dictionary_entries": 350,
+      "phrase_entries": 125
+    },
+    "en-de": {
+      "dictionary_entries": 300,
+      "phrase_entries": 100  
+    },
+    "de-en": {
+      "dictionary_entries": 300,
+      "phrase_entries": 100
+    },
+    "en-it": {
+      "dictionary_entries": 250,
+      "phrase_entries": 75
+    },
+    "it-en": {
+      "dictionary_entries": 250,
+      "phrase_entries": 75
+    },
+    "en-pt": {
+      "dictionary_entries": 200,
+      "phrase_entries": 50
+    },
+    "pt-en": {
+      "dictionary_entries": 200,
+      "phrase_entries": 50
+    }
+  }
+}
