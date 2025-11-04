@@ -85,7 +85,6 @@
 {"rule_id":"g_fix_multispaces_before_word","source_language":"any","target_language":"any","description":"Мультипробел перед словом","pattern":"\\s{2,}(\\p{L})","replacement":" $1","priority":1,"conditions":[],"case_sensitive":false}
 {"rule_id":"g_fix_multispaces_after_word","source_language":"any","target_language":"any","description":"Мультипробел после слова","pattern":"(\\p{L})\\s{2,}","replacement":"$1 ","priority":1,"conditions":[],"case_sensitive":false}
 {"rule_id":"g_end" ,"source_language":"any","target_language":"any","description":"Заглушка для 100+","pattern":"$^","replacement":"","priority":0,"conditions":[],"case_sensitive":false}
-
 {"rule_id":"g_space_collapse","source_language":"any","target_language":"any","description":"Сжать повторяющиеся пробелы","pattern":"\\s{2,}","replacement":" ","priority":1,"conditions":[],"case_sensitive":false}
 {"rule_id":"g_trim_space_before_comma","source_language":"any","target_language":"any","description":"Убрать пробел перед запятой","pattern":"\\s+,","replacement":",","priority":2,"conditions":[],"case_sensitive":false}
 {"rule_id":"g_space_after_comma","source_language":"any","target_language":"any","description":"Ровно один пробел после запятой","pattern":",\\s*","replacement":", ","priority":2,"conditions":[],"case_sensitive":false}
