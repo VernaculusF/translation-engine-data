@@ -1,0 +1,23 @@
+{"rule_id":"pp_001","description":"Trim spaces before comma","pattern":"\\s+,","replacement":",","priority":1,"target_languages":[],"is_global":true,"case_sensitive":false}
+{"rule_id":"pp_002","description":"One space after comma","pattern":",\\s*","replacement":", ","priority":1,"target_languages":[],"is_global":true,"case_sensitive":false}
+{"rule_id":"pp_003","description":"Trim spaces before dot","pattern":"\\s+\\.","replacement":".","priority":1,"target_languages":[],"is_global":true,"case_sensitive":false}
+{"rule_id":"pp_004","description":"One space after colon","pattern":":\\s*","replacement":": ","priority":1,"target_languages":[],"is_global":true,"case_sensitive":false}
+{"rule_id":"pp_005","description":"Trim spaces before colon","pattern":"\\s+:","replacement":":","priority":1,"target_languages":[],"is_global":true,"case_sensitive":false}
+{"rule_id":"pp_006","description":"Trim spaces before semicolon","pattern":"\\s+;","replacement":";","priority":1,"target_languages":[],"is_global":true,"case_sensitive":false}
+{"rule_id":"pp_007","description":"One space after semicolon","pattern":";\\s*","replacement":"; ","priority":1,"target_languages":[],"is_global":true,"case_sensitive":false}
+{"rule_id":"pp_008","description":"Remove multiple dots","pattern":"\\.{2,}","replacement":".","priority":1,"target_languages":[],"is_global":true,"case_sensitive":false}
+{"rule_id":"pp_009","description":"Collapse ellipsis","pattern":"\\.\\.\\.+","replacement":"…","priority":1,"target_languages":[],"is_global":true,"case_sensitive":false}
+{"rule_id":"pp_010","description":"Normalize dash","pattern":"[-—]","replacement":"–","priority":1,"target_languages":[],"is_global":true,"case_sensitive":false}
+{"rule_id":"pp_011","description":"Space around dash (ru)","pattern":"\\s*–\\s*","replacement":" – ","priority":2,"target_languages":["ru"],"is_global":false,"case_sensitive":false}
+{"rule_id":"pp_012","description":"Straight quotes to angled (ru)","pattern":"\"([^\"]+)\"","replacement":"«$1»","priority":2,"target_languages":["ru"],"is_global":false,"case_sensitive":false}
+{"rule_id":"pp_013","description":"No space after «","pattern":"«\\s+","replacement":"«","priority":2,"target_languages":["ru"],"is_global":false,"case_sensitive":false}
+{"rule_id":"pp_014","description":"No space before »","pattern":"\\s+»","replacement":"»","priority":2,"target_languages":["ru"],"is_global":false,"case_sensitive":false}
+{"rule_id":"pp_015","description":"No space before )","pattern":"\\s+\\)","replacement":")","priority":1,"target_languages":[],"is_global":true,"case_sensitive":false}
+{"rule_id":"pp_016","description":"No space after (","pattern":"\\(\\s+","replacement":"(","priority":1,"target_languages":[],"is_global":true,"case_sensitive":false}
+{"rule_id":"pp_017","description":"Number% no space","pattern":"(\\d)\\s+%","replacement":"$1%","priority":1,"target_languages":[],"is_global":true,"case_sensitive":false}
+{"rule_id":"pp_018","description":"Number° no space","pattern":"(\\d)\\s+°","replacement":"$1°","priority":1,"target_languages":[],"is_global":true,"case_sensitive":false}
+{"rule_id":"pp_019","description":"Hyphenated words glue","pattern":"(\\p{L})\\s*-\\s*(\\p{L})","replacement":"$1-$2","priority":1,"target_languages":[],"is_global":true,"case_sensitive":false}
+{"rule_id":"pp_020","description":"Trim start","pattern":"^\\s+","replacement":"","priority":1,"target_languages":[],"is_global":true,"case_sensitive":false}
+{"rule_id":"pp_021","description":"Trim end","pattern":"\\s+$","replacement":"","priority":1,"target_languages":[],"is_global":true,"case_sensitive":false}
+{"rule_id":"pp_022","description":"No spaces around /","pattern":"\\s*/\\s*","replacement":"/","priority":1,"target_languages":[],"is_global":true,"case_sensitive":false}
+{"rule_id":"pp_023","description":"Time 12:34 compact","pattern":"(\\d)\\s*:\\s*(\\d)",

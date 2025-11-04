@@ -1,0 +1,52 @@
+{"id":1,"source_word":"hello","target_word":"привет","language_pair":"en-ru","part_of_speech":"interjection","definition":"greeting","frequency":1600,"created_at":1760270536971,"updated_at":1762166480184}
+{"id":2,"source_word":"world","target_word":"мир","language_pair":"en-ru","part_of_speech":"noun","definition":"the earth","frequency":1520,"created_at":1760270536976,"updated_at":1762166480184}
+{"id":3,"source_word":"good","target_word":"хороший","language_pair":"en-ru","part_of_speech":"adjective","definition":"positive quality","frequency":1440,"created_at":1760270536977,"updated_at":1762166480184}
+{"id":4,"source_word":"bad","target_word":"плохой","language_pair":"en-ru","part_of_speech":"adjective","definition":"negative quality","frequency":1360,"created_at":1760270536978,"updated_at":1762166480184}
+{"id":5,"source_word":"yes","target_word":"да","language_pair":"en-ru","part_of_speech":"adverb","definition":"affirmative","frequency":1600,"created_at":1760270536979,"updated_at":1762166480184}
+{"id":6,"source_word":"no","target_word":"нет","language_pair":"en-ru","part_of_speech":"adverb","definition":"negative","frequency":1600,"created_at":1760270536980,"updated_at":1762166480184}
+{"id":7,"source_word":"please","target_word":"пожалуйста","language_pair":"en-ru","part_of_speech":"adverb","definition":"polite request","frequency":1280,"created_at":1760270536981,"updated_at":1762166480185}
+{"id":8,"source_word":"thank","target_word":"спасибо","language_pair":"en-ru","part_of_speech":"verb","definition":"express gratitude","frequency":1520,"created_at":1760270536981,"updated_at":1762166480185}
+{"id":9,"source_word":"you","target_word":"ты","language_pair":"en-ru","part_of_speech":"pronoun","definition":"second person","frequency":1600,"created_at":1760270536982,"updated_at":1762166480185}
+{"id":10,"source_word":"me","target_word":"я","language_pair":"en-ru","part_of_speech":"pronoun","definition":"first person","frequency":1600,"created_at":1760270536983,"updated_at":1762166480185}
+{"id":11,"source_word":"love","target_word":"любовь","language_pair":"en-ru","part_of_speech":"noun","definition":"deep affection","frequency":1360,"created_at":1760270536984,"updated_at":1762166480185}
+{"id":12,"source_word":"time","target_word":"время","language_pair":"en-ru","part_of_speech":"noun","definition":"duration","frequency":1440,"created_at":1760270536985,"updated_at":1762166480185}
+{"id":13,"source_word":"water","target_word":"вода","language_pair":"en-ru","part_of_speech":"noun","definition":"liquid","frequency":1280,"created_at":1760270536986,"updated_at":1762166480185}
+{"id":14,"source_word":"food","target_word":"еда","language_pair":"en-ru","part_of_speech":"noun","definition":"nourishment","frequency":1360,"created_at":1760270536988,"updated_at":1762166480185}
+{"id":15,"source_word":"house","target_word":"дом","language_pair":"en-ru","part_of_speech":"noun","definition":"dwelling","frequency":1408,"created_at":1760270536989,"updated_at":1762166480185}
+{"id":16,"source_word":"car","target_word":"машина","language_pair":"en-ru","part_of_speech":"noun","definition":"vehicle","frequency":1312,"created_at":1760270536989,"updated_at":1762166480185}
+{"id":17,"source_word":"book","target_word":"книга","language_pair":"en-ru","part_of_speech":"noun","definition":"written work","frequency":1248,"created_at":1760270536991,"updated_at":1762166480185}
+{"id":18,"source_word":"school","target_word":"школа","language_pair":"en-ru","part_of_speech":"noun","definition":"educational institution","frequency":1360,"created_at":1760270536992,"updated_at":1762166480185}
+{"id":19,"source_word":"work","target_word":"работа","language_pair":"en-ru","part_of_speech":"noun","definition":"job","frequency":1440,"created_at":1760270536993,"updated_at":1762166480185}
+{"id":20,"source_word":"money","target_word":"деньги","language_pair":"en-ru","part_of_speech":"noun","definition":"currency","frequency":1408,"created_at":1760270536994,"updated_at":1762166480185}
+{"id":21,"source_word":"family","target_word":"семья","language_pair":"en-ru","part_of_speech":"noun","definition":"relatives","frequency":1472,"created_at":1760270536995,"updated_at":1762166480185}
+{"id":22,"source_word":"friend","target_word":"друг","language_pair":"en-ru","part_of_speech":"noun","definition":"companion","frequency":1360,"created_at":1760270536997,"updated_at":1762166480185}
+{"id":23,"source_word":"today","target_word":"сегодня","language_pair":"en-ru","part_of_speech":"adverb","definition":"this day","frequency":1520,"created_at":1760270536998,"updated_at":1762166480185}
+{"id":24,"source_word":"tomorrow","target_word":"завтра","language_pair":"en-ru","part_of_speech":"adverb","definition":"next day","frequency":1440,"created_at":1760270536999,"updated_at":1762166480185}
+{"id":25,"source_word":"yesterday","target_word":"вчера","language_pair":"en-ru","part_of_speech":"adverb","definition":"previous day","frequency":1408,"created_at":1760270537001,"updated_at":1762166480185}
+{"id":26,"source_word":"morning","target_word":"утро","language_pair":"en-ru","part_of_speech":"noun","definition":"early day","frequency":1360,"created_at":1760270537002,"updated_at":1762166480185}
+{"id":27,"source_word":"night","target_word":"ночь","language_pair":"en-ru","part_of_speech":"noun","definition":"dark hours","frequency":1328,"created_at":1760270537003,"updated_at":1762166480185}
+{"id":28,"source_word":"beautiful","target_word":"красивый","language_pair":"en-ru","part_of_speech":"adjective","definition":"attractive","frequency":1280,"created_at":1760270537005,"updated_at":1762166480185}
+{"id":29,"source_word":"big","target_word":"большой","language_pair":"en-ru","part_of_speech":"adjective","definition":"large size","frequency":1360,"created_at":1760270537007,"updated_at":1762166480185}
+{"id":30,"source_word":"small","target_word":"маленький","language_pair":"en-ru","part_of_speech":"adjective","definition":"little size","frequency":1328,"created_at":1760270537008,"updated_at":1762166480185}
+{"id":31,"source_word":"new","target_word":"новый","language_pair":"en-ru","part_of_speech":"adjective","definition":"recent","frequency":1408,"created_at":1760270537010,"updated_at":1762166480185}
+{"id":32,"source_word":"old","target_word":"старый","language_pair":"en-ru","part_of_speech":"adjective","definition":"aged","frequency":1360,"created_at":1760270537011,"updated_at":1762166480185}
+{"id":33,"source_word":"young","target_word":"молодой","language_pair":"en-ru","part_of_speech":"adjective","definition":"not old","frequency":1280,"created_at":1760270537013,"updated_at":1762166480185}
+{"id":34,"source_word":"happy","target_word":"счастливый","language_pair":"en-ru","part_of_speech":"adjective","definition":"joyful","frequency":1360,"created_at":1760270537015,"updated_at":1762166480185}
+{"id":35,"source_word":"sad","target_word":"грустный","language_pair":"en-ru","part_of_speech":"adjective","definition":"sorrowful","frequency":1248,"created_at":1760270537017,"updated_at":1762166480185}
+{"id":36,"source_word":"eat","target_word":"есть","language_pair":"en-ru","part_of_speech":"verb","definition":"consume food","frequency":1440,"created_at":1760270537019,"updated_at":1762166480185}
+{"id":37,"source_word":"drink","target_word":"пить","language_pair":"en-ru","part_of_speech":"verb","definition":"consume liquid","frequency":1408,"created_at":1760270537020,"updated_at":1762166480185}
+{"id":38,"source_word":"sleep","target_word":"спать","language_pair":"en-ru","part_of_speech":"verb","definition":"rest","frequency":1360,"created_at":1760270537022,"updated_at":1762166480185}
+{"id":39,"source_word":"walk","target_word":"идти","language_pair":"en-ru","part_of_speech":"verb","definition":"move on foot","frequency":1312,"created_at":1760270537024,"updated_at":1762166480185}
+{"id":40,"source_word":"run","target_word":"бежать","language_pair":"en-ru","part_of_speech":"verb","definition":"move quickly","frequency":1248,"created_at":1760270537026,"updated_at":1762166480185}
+{"id":41,"source_word":"see","target_word":"видеть","language_pair":"en-ru","part_of_speech":"verb","definition":"observe","frequency":1440,"created_at":1760270537028,"updated_at":1762166480185}
+{"id":42,"source_word":"hear","target_word":"слышать","language_pair":"en-ru","part_of_speech":"verb","definition":"perceive sound","frequency":1360,"created_at":1760270537030,"updated_at":1762166480185}
+{"id":43,"source_word":"speak","target_word":"говорить","language_pair":"en-ru","part_of_speech":"verb","definition":"talk","frequency":1408,"created_at":1760270537032,"updated_at":1762166480185}
+{"id":44,"source_word":"write","target_word":"писать","language_pair":"en-ru","part_of_speech":"verb","definition":"create text","frequency":1280,"created_at":1760270537033,"updated_at":1762166480185}
+{"id":45,"source_word":"read","target_word":"читать","language_pair":"en-ru","part_of_speech":"verb","definition":"understand text","frequency":1360,"created_at":1760270537035,"updated_at":1762166480185}
+{"id":46,"source_word":"learn","target_word":"учиться","language_pair":"en-ru","part_of_speech":"verb","definition":"acquire knowledge","frequency":1408,"created_at":1760270537037,"updated_at":1762166480185}
+{"id":47,"source_word":"teach","target_word":"учить","language_pair":"en-ru","part_of_speech":"verb","definition":"instruct","frequency":1312,"created_at":1760270537040,"updated_at":1762166480185}
+{"id":48,"source_word":"help","target_word":"помогать","language_pair":"en-ru","part_of_speech":"verb","definition":"assist","frequency":1360,"created_at":1760270537042,"updated_at":1762166480185}
+{"id":49,"source_word":"come","target_word":"приходить","language_pair":"en-ru","part_of_speech":"verb","definition":"arrive","frequency":1408,"created_at":1760270537044,"updated_at":1762166480185}
+{"id":50,"source_word":"go","target_word":"идти","language_pair":"en-ru","part_of_speech":"verb","definition":"depart","frequency":1440,"created_at":1760270537046,"updated_at":1762166480185}
+{"id":51,"source_word":"cafe","target_word":"кафе","language_pair":"en-ru","part_of_speech":null,"definition":null,"frequency":3,"created_at":1762162282494,"updated_at":1762166548620}
+{"id":52,"source_word":"naive","target_word":"наивный","language_pair":"en-ru","part_of_speech":null,"definition":null,"frequency":3,"created_at":1762162282494,"updated_at":1762166548621}
