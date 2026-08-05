@@ -16,3 +16,6 @@ Thumbs.db
 # Temp
 *.log
 *.tmp
+
+# Generated root archives; curated archives under zip/ remain tracked
+/*.zip
